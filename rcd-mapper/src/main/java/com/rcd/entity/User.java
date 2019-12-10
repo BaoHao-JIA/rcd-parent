@@ -19,7 +19,7 @@ public class User extends Model<User> {
     private static final long serialVersionUID = 1L;
 
     /**
-     * 用户主键
+     * 用户主键id
      */
     private String id;
 
