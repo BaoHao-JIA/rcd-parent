@@ -1,8 +1,9 @@
 package com.rcd.mapper;
 
+import com.baomidou.mybatisplus.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 
-@Mapper
-public interface MapperTest {
-     String test1();
+
+public class MapperTest {
+     //String test1();
 }

@@ -9,11 +9,11 @@ import org.springframework.stereotype.Service;
 public class ServiceTest {
 
 
-    @Autowired
-    private MapperTest test;
+   // @Autowired
+   // private MapperTest test;
 
     public String showMapper(){
 
-        return test.test1()+"I am service";
+        return "I am service";
     }
 }
