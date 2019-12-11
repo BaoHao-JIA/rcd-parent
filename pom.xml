@@ -30,7 +30,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <mybatisplus.version>3.3.0</mybatisplus.version>
-        <fastjson.version>1.2.9</fastjson.version>
+        <fastjson.version>1.2.25</fastjson.version>
         <druid-version>1.1.6</druid-version>
         <shiro.version>1.4.0</shiro.version>
         <shiro-redis.version>2.4.2.1-RELEASE</shiro-redis.version>
