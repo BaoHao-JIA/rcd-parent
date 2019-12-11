@@ -1,0 +1,30 @@
+2019-12-11 14:53:49,701 [INFO] [main] com.rcd.RcdWebApplication [StartupInfoLogger.java : 50] Starting RcdWebApplication on OS6E9DORI4YYGSD with PID 7200 (E:\zycs\rcd-parent\rcd-web\target\classes started by Administrator in E:\zycs\rcd-parent)
+2019-12-11 14:53:49,704 [INFO] [main] com.rcd.RcdWebApplication [SpringApplication.java : 652] The following profiles are active: dev
+2019-12-11 14:53:50,469 [INFO] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-11 14:53:50,471 [INFO] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-11 14:53:50,497 [INFO] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-12-11 14:53:50,581 [WARN] [main] org.mybatis.spring.mapper.ClassPathMapperScanner [Logger.java : 44] No MyBatis mapper was found in '[com.rcd.mapper.*.mapper*]' package. Please check your configuration.
+2019-12-11 14:53:50,767 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$94113f8e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-11 14:53:51,007 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8082 (http)
+2019-12-11 14:53:51,027 [INFO] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-12-11 14:53:51,028 [INFO] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-11 14:53:51,132 [INFO] [main] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/rcd] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-12-11 14:53:51,133 [INFO] [main] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] Root WebApplicationContext: initialization completed in 1389 ms
+2019-12-11 14:53:51,562 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-11 14:53:52,265 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 202] Tomcat started on port(s): 8082 (http) with context path '/rcd'
+2019-12-11 14:53:52,268 [INFO] [main] com.rcd.RcdWebApplication [StartupInfoLogger.java : 59] Started RcdWebApplication in 3.041 seconds (JVM running for 3.627)
+2019-12-11 14:54:10,345 [INFO] [main] com.rcd.RcdWebApplication [StartupInfoLogger.java : 50] Starting RcdWebApplication on OS6E9DORI4YYGSD with PID 9536 (E:\zycs\rcd-parent\rcd-web\target\classes started by Administrator in E:\zycs\rcd-parent)
+2019-12-11 14:54:10,348 [INFO] [main] com.rcd.RcdWebApplication [SpringApplication.java : 652] The following profiles are active: dev
+2019-12-11 14:54:11,002 [INFO] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-11 14:54:11,005 [INFO] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-11 14:54:11,032 [INFO] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 182] Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-12-11 14:54:11,126 [WARN] [main] org.mybatis.spring.mapper.ClassPathMapperScanner [Logger.java : 44] No MyBatis mapper was found in '[com.rcd.mapper.*.mapper*]' package. Please check your configuration.
+2019-12-11 14:54:11,301 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$891d417b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-11 14:54:11,526 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8082 (http)
+2019-12-11 14:54:11,547 [INFO] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-12-11 14:54:11,547 [INFO] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-11 14:54:11,656 [INFO] [main] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/rcd] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-12-11 14:54:11,657 [INFO] [main] org.springframework.web.context.ContextLoader [ServletWebServerApplicationContext.java : 284] Root WebApplicationContext: initialization completed in 1241 ms
+2019-12-11 14:54:12,106 [INFO] [main] o.s.scheduling.concurrent.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-11 14:54:12,805 [INFO] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [TomcatWebServer.java : 202] Tomcat started on port(s): 8082 (http) with context path '/rcd'
+2019-12-11 14:54:12,808 [INFO] [main] com.rcd.RcdWebApplication [StartupInfoLogger.java : 59] Started RcdWebApplication in 3.171 seconds (JVM running for 3.804)

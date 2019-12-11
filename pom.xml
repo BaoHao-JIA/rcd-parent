@@ -29,8 +29,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <mybatisplus-spring-boot-starter.version>1.0.5</mybatisplus-spring-boot-starter.version>
-        <mybatisplus.version>2.1.8</mybatisplus.version>
+        <mybatisplus.version>3.3.0</mybatisplus.version>
         <fastjson.version>1.2.9</fastjson.version>
         <druid-version>1.1.6</druid-version>
         <shiro.version>1.4.0</shiro.version>
@@ -81,12 +80,7 @@
         <!-- mybatis-plus begin -->
         <dependency>
             <groupId>com.baomidou</groupId>
-            <artifactId>mybatisplus-spring-boot-starter</artifactId>
-            <version>${mybatisplus-spring-boot-starter.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus</artifactId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>${mybatisplus.version}</version>
         </dependency>
         <!-- mybatis-plus end -->

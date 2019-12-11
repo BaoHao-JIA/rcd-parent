@@ -1,8 +1,7 @@
 package com.rcd.entity;
 
-import com.baomidou.mybatisplus.activerecord.Model;
-import com.baomidou.mybatisplus.annotations.TableId;
-import com.baomidou.mybatisplus.annotations.TableName;
+import com.baomidou.mybatisplus.annotation.*;
+import com.baomidou.mybatisplus.extension.activerecord.Model;
 import lombok.*;
 
 import java.io.Serializable;
@@ -21,18 +20,19 @@ public class User extends Model<User> {
     /**
      * 用户主键id
      */
+    @TableId("id")
     private String id;
 
     /**
      * 登陆账户
      */
-    @TableId("login_name")
+    @TableField("login_name")
     private String loginName;
 
     /**
      * 登陆密码
      */
-    @TableId("login_pwd")
+    @TableField("login_pwd")
     private String loginPwd;
 
     /**
@@ -43,7 +43,7 @@ public class User extends Model<User> {
     /**
      * 用户类型
      */
-    @TableId("user_type")
+    @TableField("user_type")
     private String userType;
 
     /**

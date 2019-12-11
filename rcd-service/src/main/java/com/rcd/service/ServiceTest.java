@@ -1,7 +1,5 @@
 package com.rcd.service;
 
-import com.rcd.mapper.MapperTest;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
